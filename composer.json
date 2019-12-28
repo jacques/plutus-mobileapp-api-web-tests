@@ -1,6 +1,22 @@
 {
+    "name": "jacques/paymentfile-parsers",
+    "description": "Payment file parsers",
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
     "require": {
-        "slim/slim": "^2.6",
+        "moneyphp/money": "^3.3",
+        "nesbot/carbon": "^2.28",
+        "slim/csrf": "^1.0",
+        "slim/flash": "^0.4.0",
+        "slim/slim": "^3.10",
         "smarty/smarty": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/php-invoker": "^2.0",
+        "phpunit/phpunit": "^8.5",
+        "rector/rector": "^0.6.4",
+        "vimeo/psalm": "^3.8"
     }
 }
